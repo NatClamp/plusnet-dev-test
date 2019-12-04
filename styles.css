@@ -22,7 +22,7 @@ html {
 body {
   background-color: #e4ecef;
   font-family: "Helvetica Neue", sans-serif;
-  padding: 20px;
+  padding: 2em;
 }
 
 h1 {
@@ -31,6 +31,7 @@ h1 {
 
 p {
   color: #494c4f;
+  line-height: 1.5em;
 }
 
 details {
@@ -39,13 +40,13 @@ details {
 }
 
 summary {
-  /* font-weight: bold; */
-  padding: 0.5em;
+  font-weight: bold;
+  padding: 0.75em 0.5em 0.75em 1.5em;
   color: #fff;
 }
 
 details[open] .details-content {
-  padding: 0.5em 1em;
+  padding: 0.5em 1.5em;
 }
 
 details[open] summary {
@@ -66,4 +67,24 @@ details[open] > summary::-webkit-details-marker {
   transform: rotate(180deg);
   padding-left: 5px;
   padding-bottom: 3px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  color: #494c4f;
+}
+
+ul li::before {
+  content: "\25A0";
+  color: #c81e6e;
+  display: inline-block;
+  width: 1em;
+  margin-left: -2.25em;
+}
+
+a {
+  color: #c81e6e;
 }

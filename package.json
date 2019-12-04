@@ -1,0 +1,24 @@
+{
+  "name": "DeveloperTest",
+  "version": "1.0.0",
+  "description": "* Your task is to create an 'accordion' component * You may use the approach you deem appropriate * The design and content have been provided * Allow yourself up to 2 hours for the task * Allow an additional 15 minutes at the end to document what's missing due to time constraints, or to suggest ways in which your code could be improved were you given additional time to do so * Once your time is up:     - Zip up the contents of your work (including any additional notes) and name the file using the convention: `frontend-test-accordion--full-name.zip`     - Provide us with a [WeTransfer](https://wetransfer.com/) download link to the file",
+  "main": "index.js",
+  "dependencies": {
+    "details-polyfill": "1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatClamp/plusnet-dev-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatClamp/plusnet-dev-test/issues"
+  },
+  "homepage": "https://github.com/NatClamp/plusnet-dev-test#readme"
+}
