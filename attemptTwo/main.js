@@ -3,7 +3,6 @@ const contentPanels = document.getElementsByClassName(
   "accordion-content-container"
 );
 const content = document.getElementsByClassName("accordion-content");
-// console.log(document.querySelectorAll("div.accordion-content"));
 
 const contentWithinDivsInPanels = document.querySelector(
   ".accordion-content-container > div.accordion-content"

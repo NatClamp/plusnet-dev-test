@@ -9,14 +9,13 @@ body {
   padding: 2em;
   color: #494c4f;
   line-height: 1.5em;
+  margin: 0 auto;
 }
 
+.accordion-container,
 .main-header {
-  position: relative;
-}
-
-.accordion-container {
   max-width: 1140px;
+  margin: 24px auto;
 }
 
 .accordion-section {
@@ -101,8 +100,6 @@ button {
   cursor: pointer;
   text-align: left;
   background: none;
-  /* transition: background 250ms ease-in-out, 
-              transform 150ms ease; */
   -webkit-appearance: none;
   -moz-appearance: none;
 }
@@ -138,14 +135,24 @@ a:hover {
 @media only screen and (max-width: 768px) {
   body {
     margin-left: 12px;
+    margin-right: 12px;
     padding: 0;
-    background-color: grey;
   }
-  .accordion-container {
+
+  .accordion-container,
+  .main-header {
     max-width: 744px;
+    margin-top: 24px;
   }
   .accordion {
     max-height: 36px;
+  }
+  .accordion-section {
+    max-height: 400px;
+  }
+
+  .accordion-section h2 {
+    margin-bottom: 14px;
   }
 
   button {
