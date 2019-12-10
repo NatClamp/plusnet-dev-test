@@ -132,7 +132,7 @@ a:hover {
   color: #005da1;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 321px) and (max-width: 768px) {
   body {
     margin-left: 12px;
     margin-right: 12px;
@@ -144,6 +144,11 @@ a:hover {
     max-width: 744px;
     margin-top: 24px;
   }
+
+  .main-header {
+    margin-top: 36px;
+  }
+
   .accordion {
     max-height: 36px;
   }
@@ -174,5 +179,32 @@ a:hover {
 
   .accordion:hover:after {
     margin-top: 8px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 0;
+    background-color: grey;
+  }
+
+  h1.main-header {
+    font-size: 26px;
+    margin-top: 32px;
+  }
+
+  .accordion-container {
+    max-width: 296px;
+  }
+
+  button {
+    padding: 6px 4px 6px 8px;
+    font-size: 14px;
+  }
+
+  .accordion:after {
+    margin: 10px;
   }
 }
